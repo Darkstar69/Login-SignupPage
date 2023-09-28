@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-image: url(abstract-blur-green-nature.jpg);
+        }
+        .header{
+            text-align: center;
+        }
+        .header h1{
+            padding: 0;
+            margin: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .header p{
+            font-weight: bold;
+            font-family: monospace;
+        }
+        .container{
+            margin: auto;
+            padding: 20px;
+            width: 40%;
+            height: 50vh;
+            /* background-color: blueviolet; */
+            background: transparent;
+            /* border-radius: 20px; */
+            text-align: center;
+        }
+        .form-input{
+            color: rgb(0, 4, 255);
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+        }
+        .forms form input{
+            border-radius: 9px;
+            padding: 5px;
+            margin: 5px;
+        }
+        #id{
+            margin: 5px 24px;
+        }
+        #password{
+            margin: 5px 20px;
+        }
+        #confirm{
+            margin-right: 15px;
+        }
+        #confirm-password{
+            margin-right: 82px;
+        }
+        .btns{
+            margin-top: 7px;
+            color: rgb(255, 60, 0);
+            font-weight: bold;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .btns button{
+            height: 27px;
+            border-radius: 8px;
+            color: rgb(163, 4, 4);
+            font-weight: bold;
+        }
+        .btns button a{
+            text-decoration: none;
+            color: rgb(184, 7, 7);
+        }
+        .images{
+            margin-top: 20px;
+        }
+        .images img{
+            margin-left: -15px;
+            margin-top: -6px;
+            border-radius: 10px;
+            /* height: 215px;
+            width: 570px; */
+            width: 105%;
+            height: 44vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Student Login</h1>
+        <p>Login Using Your Details</p>
+        </div>
+        <div class="forms">
+            <form action="">
+                <label for="id" class="form-input">Student ID : </label>
+                <input type="number" id="id" placeholder="Enter your unique id">
+                <br>
+                <label for="password" class="form-input">Password : </label>
+                <input type="text" id="password" placeholder="Enter your password">
+                <br>
+                <label for="confirm-password" class="form-input" id="confirm">Confirm Password : </label>
+                <input type="text" id="confirm-password" placeholder="Enter your password again">
+            </form>
+            <div class="btns">
+                <button type="submit">Login</button>
+                <br>
+            </div>
+            <div class="btns">
+                <span>New User Register here</span>
+                <button type="submit"><a href="signup.html">Register</a></button>
+            </div>
+        </div>
+        <div class="images">
+            <img src="https://source.unsplash.com/1080x720/?education, study, books, students" alt="ads">
+        </div>
+    </div>
+</body>
+</html>
